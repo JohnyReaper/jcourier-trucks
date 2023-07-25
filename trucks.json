@@ -1,10 +1,26 @@
 {
+	"gmcvantdmdlx1": {
+		"TakeOut": "[-1.6811 -117.3358 34.5629]",
+		"IsSimfphys": false,
+		"TrunkMax": "[36.8453 9.9159 83.5178]",
+		"PlayerCanChangeBody": true,
+		"TrunkMin": "[-36.3338 -123.5617 21.2335]",
+		"OverrideAppearance": [],
+		"PlayerCanChangeSkin": true,
+		"TrunkCapacity": 20.0,
+		"PlayerCanChangeColor": true,
+		"VendorAvailable": true
+	},
 	"gmcvantdm": {
 		"TakeOut": "[0.225 -112.2545 29.8309]",
 		"IsSimfphys": false,
 		"TrunkMax": "[39.1492 -92.6002 84.7981]",
 		"PlayerCanChangeBody": false,
 		"TrunkMin": "[-35.8947 -112.6709 21.1065]",
+		"VendorAvailable": true,
+		"TrunkCapacity": 15.0,
+		"PlayerCanChangeSkin": true,
+		"PlayerCanChangeColor": true,
 		"OverrideAppearance": {
 			"TColor": {
 				"r": 255.0,
@@ -17,11 +33,7 @@
 				"4": 1.0
 			},
 			"Skin": 0.0
-		},
-		"TrunkCapacity": 15.0,
-		"PlayerCanChangeSkin": true,
-		"PlayerCanChangeColor": true,
-		"VendorAvailable": true
+		}
 	},
 	"Jeep": {
 		"TakeOut": "[-1.4691 -107.1868 57.3149]",
@@ -38,8 +50,20 @@
 			"Skin": 0.0
 		},
 		"TrunkMin": "[-31.623 -110.7615 16.0667]",
-		"PlayerCanChangeBody": true,
+		"VendorAvailable": true,
 		"TrunkCapacity": 0.0,
+		"PlayerCanChangeColor": true,
+		"PlayerCanChangeBody": true
+	},
+	"gmcvantdmdlx": {
+		"TakeOut": "[-0.9702 -119.1012 37.5866]",
+		"IsSimfphys": false,
+		"TrunkMax": "[35.7129 11.2088 80.776]",
+		"PlayerCanChangeBody": true,
+		"TrunkMin": "[-33.7408 -122.6414 24.3028]",
+		"OverrideAppearance": [],
+		"PlayerCanChangeSkin": true,
+		"TrunkCapacity": 20.0,
 		"PlayerCanChangeColor": true,
 		"VendorAvailable": true
 	},
@@ -49,10 +73,6 @@
 		"TrunkMax": "[37.543 25.3789 103.782]",
 		"PlayerCanChangeBody": false,
 		"TrunkMin": "[-37.6685 -116.2475 17.8266]",
-		"VendorAvailable": true,
-		"PlayerCanChangeSkin": false,
-		"TrunkCapacity": 25.0,
-		"PlayerCanChangeColor": true,
 		"OverrideAppearance": {
 			"TColor": {
 				"r": 255.0,
@@ -62,13 +82,21 @@
 			},
 			"Bodygroups": [],
 			"Skin": 3.0
-		}
+		},
+		"PlayerCanChangeSkin": false,
+		"TrunkCapacity": 25.0,
+		"PlayerCanChangeColor": true,
+		"VendorAvailable": true
 	},
 	"courier_trucktdm": {
 		"TakeOut": "[0.03 -148.16 30.71]",
 		"TrunkMax": "[39 -13 60]",
 		"PlayerCanChangeBody": true,
 		"VendorAvailable": true,
+		"TrunkMin": "[-39 -150 30]",
+		"TrunkCapacity": 30.0,
+		"PlayerCanChangeSkin": false,
+		"PlayerCanChangeColor": true,
 		"OverrideAppearance": {
 			"TColor": {
 				"r": 255.0,
@@ -78,11 +106,7 @@
 			},
 			"Bodygroups": [],
 			"Skin": 1.0
-		},
-		"TrunkCapacity": 30.0,
-		"PlayerCanChangeSkin": false,
-		"PlayerCanChangeColor": true,
-		"TrunkMin": "[-39 -150 30]"
+		}
 	},
 	"merc_sprinter_lwb_lw": {
 		"TakeOut": "[0.3443 -152.921 23.6021]",
@@ -90,10 +114,6 @@
 		"TrunkMax": "[37.1668 20.4348 105.2883]",
 		"PlayerCanChangeBody": false,
 		"TrunkMin": "[-43.5464 -163.0408 16.4673]",
-		"VendorAvailable": false,
-		"PlayerCanChangeSkin": true,
-		"TrunkCapacity": 40.0,
-		"PlayerCanChangeColor": true,
 		"OverrideAppearance": {
 			"TColor": {
 				"r": 255.0,
@@ -103,7 +123,11 @@
 			},
 			"Bodygroups": [],
 			"Skin": 3.0
-		}
+		},
+		"PlayerCanChangeSkin": true,
+		"TrunkCapacity": 40.0,
+		"PlayerCanChangeColor": true,
+		"VendorAvailable": false
 	},
 	"c5500tdm": {
 		"TakeOut": "[1.1862 -206.0691 42.865]",
@@ -111,10 +135,6 @@
 		"TrunkMax": "[49.9259 -158.9741 134.9397]",
 		"PlayerCanChangeBody": true,
 		"TrunkMin": "[-51.183 -212.9535 31.3683]",
-		"VendorAvailable": true,
-		"TrunkCapacity": 100.0,
-		"PlayerCanChangeSkin": true,
-		"PlayerCanChangeColor": true,
 		"OverrideAppearance": {
 			"TColor": {
 				"r": 255.0,
@@ -124,6 +144,10 @@
 			},
 			"Bodygroups": [],
 			"Skin": 0.0
-		}
+		},
+		"TrunkCapacity": 100.0,
+		"PlayerCanChangeSkin": true,
+		"PlayerCanChangeColor": true,
+		"VendorAvailable": true
 	}
 }
